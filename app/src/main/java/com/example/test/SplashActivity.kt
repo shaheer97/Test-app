@@ -49,6 +49,7 @@ class SplashActivity : AppCompatActivity() {
             val tenSecondsInMillis = 1000 * 10.toLong()
             alarmManager[AlarmManager.RTC_WAKEUP, timeAtButtonCLick + tenSecondsInMillis] =
                 pendingIntent
+            finish()
 
          //   alarmManager.setRepeating(AlarmManager.RTC_WAKEUP,calendar.getTimeInMillis(),AlarmManager.INTERVAL_DAY,pendingIntent)
 
