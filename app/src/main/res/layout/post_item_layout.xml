@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/card_view_item"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    app:cardCornerRadius="5dp"
+    app:cardElevation="8dp"
+    android:background="#D8000000"
+    tools:context="com.example.test.MainActivity2">
+
+
+    <RelativeLayout
+        android:id="@+id/rl_recycler"
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:background="#D8000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.122"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="UsingOnClickInXml">
+
+
+        <TextView
+            android:id="@+id/text_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+
+            android:layout_marginStart="39dp"
+            android:layout_marginLeft="39dp"
+            android:layout_marginBottom="43dp"
+            android:textColor="@color/white"
+            android:text="\u0627\u0644\u0631\u064e\u0651\u062d\u0652\u0645\u064e\u0646\u064f"
+            android:textSize="50dp" />
+
+        <TextView
+            android:id="@+id/text_trans"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="241dp"
+            android:layout_marginLeft="241dp"
+            android:layout_marginBottom="94dp"
+            android:text="@string/ar_rahmaan"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:textColor="#FFC107"/>
+
+        <TextView
+            android:id="@+id/text_meaning"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="241dp"
+            android:layout_marginLeft="241dp"
+            android:textColor="#AEFFFFFF"
+            android:layout_marginBottom="36dp"
+            android:text="@string/the_beneficent"
+            android:textSize="10dp" />
+
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>
